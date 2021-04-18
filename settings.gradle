@@ -1,2 +1,8 @@
+include ':presentation'
+include ':domain'
+include ':local'
+include ':di'
+include ':data'
+include ':remote'
 include ':app'
-rootProject.name = "Features"
+rootProject.name = "App"

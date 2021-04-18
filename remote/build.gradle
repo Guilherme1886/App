@@ -1,0 +1,14 @@
+plugins { id 'kotlin' }
+
+dependencies {
+    //dependencies
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.google.code.gson:gson:$gson_version"
+
+    //modules
+    implementation project(":data")
+
+    //test
+    testImplementation 'junit:junit:4.+'
+}
